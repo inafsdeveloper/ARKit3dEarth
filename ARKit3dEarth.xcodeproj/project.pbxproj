@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6826247B1FE2444500436504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6826247A1FE2444500436504 /* AppDelegate.swift */; };
+		6826247D1FE2444500436504 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6826247C1FE2444500436504 /* art.scnassets */; };
+		6826247F1FE2444500436504 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6826247E1FE2444500436504 /* ViewController.swift */; };
+		682624821FE2444500436504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682624801FE2444500436504 /* Main.storyboard */; };
+		682624841FE2444500436504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 682624831FE2444500436504 /* Assets.xcassets */; };
+		682624871FE2444500436504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682624851FE2444500436504 /* LaunchScreen.storyboard */; };
+		682624921FE2444500436504 /* ARKit3dEarthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682624911FE2444500436504 /* ARKit3dEarthTests.swift */; };
+		6826249D1FE2444500436504 /* ARKit3dEarthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6826249C1FE2444500436504 /* ARKit3dEarthUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6826248E1FE2444500436504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6826246F1FE2444500436504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 682624761FE2444500436504;
+			remoteInfo = ARKit3dEarth;
+		};
+		682624991FE2444500436504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6826246F1FE2444500436504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 682624761FE2444500436504;
+			remoteInfo = ARKit3dEarth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		682624771FE2444500436504 /* ARKit3dEarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKit3dEarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6826247A1FE2444500436504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6826247C1FE2444500436504 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		6826247E1FE2444500436504 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		682624811FE2444500436504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		682624831FE2444500436504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		682624861FE2444500436504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		682624881FE2444500436504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6826248D1FE2444500436504 /* ARKit3dEarthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKit3dEarthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		682624911FE2444500436504 /* ARKit3dEarthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit3dEarthTests.swift; sourceTree = "<group>"; };
+		682624931FE2444500436504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		682624981FE2444500436504 /* ARKit3dEarthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKit3dEarthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6826249C1FE2444500436504 /* ARKit3dEarthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit3dEarthUITests.swift; sourceTree = "<group>"; };
+		6826249E1FE2444500436504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		682624741FE2444500436504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6826248A1FE2444500436504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682624951FE2444500436504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6826246E1FE2444500436504 = {
+			isa = PBXGroup;
+			children = (
+				682624791FE2444500436504 /* ARKit3dEarth */,
+				682624901FE2444500436504 /* ARKit3dEarthTests */,
+				6826249B1FE2444500436504 /* ARKit3dEarthUITests */,
+				682624781FE2444500436504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		682624781FE2444500436504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				682624771FE2444500436504 /* ARKit3dEarth.app */,
+				6826248D1FE2444500436504 /* ARKit3dEarthTests.xctest */,
+				682624981FE2444500436504 /* ARKit3dEarthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		682624791FE2444500436504 /* ARKit3dEarth */ = {
+			isa = PBXGroup;
+			children = (
+				6826247A1FE2444500436504 /* AppDelegate.swift */,
+				6826247C1FE2444500436504 /* art.scnassets */,
+				6826247E1FE2444500436504 /* ViewController.swift */,
+				682624801FE2444500436504 /* Main.storyboard */,
+				682624831FE2444500436504 /* Assets.xcassets */,
+				682624851FE2444500436504 /* LaunchScreen.storyboard */,
+				682624881FE2444500436504 /* Info.plist */,
+			);
+			path = ARKit3dEarth;
+			sourceTree = "<group>";
+		};
+		682624901FE2444500436504 /* ARKit3dEarthTests */ = {
+			isa = PBXGroup;
+			children = (
+				682624911FE2444500436504 /* ARKit3dEarthTests.swift */,
+				682624931FE2444500436504 /* Info.plist */,
+			);
+			path = ARKit3dEarthTests;
+			sourceTree = "<group>";
+		};
+		6826249B1FE2444500436504 /* ARKit3dEarthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6826249C1FE2444500436504 /* ARKit3dEarthUITests.swift */,
+				6826249E1FE2444500436504 /* Info.plist */,
+			);
+			path = ARKit3dEarthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		682624761FE2444500436504 /* ARKit3dEarth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 682624A11FE2444500436504 /* Build configuration list for PBXNativeTarget "ARKit3dEarth" */;
+			buildPhases = (
+				682624731FE2444500436504 /* Sources */,
+				682624741FE2444500436504 /* Frameworks */,
+				682624751FE2444500436504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARKit3dEarth;
+			productName = ARKit3dEarth;
+			productReference = 682624771FE2444500436504 /* ARKit3dEarth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6826248C1FE2444500436504 /* ARKit3dEarthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 682624A41FE2444500436504 /* Build configuration list for PBXNativeTarget "ARKit3dEarthTests" */;
+			buildPhases = (
+				682624891FE2444500436504 /* Sources */,
+				6826248A1FE2444500436504 /* Frameworks */,
+				6826248B1FE2444500436504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6826248F1FE2444500436504 /* PBXTargetDependency */,
+			);
+			name = ARKit3dEarthTests;
+			productName = ARKit3dEarthTests;
+			productReference = 6826248D1FE2444500436504 /* ARKit3dEarthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		682624971FE2444500436504 /* ARKit3dEarthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 682624A71FE2444500436504 /* Build configuration list for PBXNativeTarget "ARKit3dEarthUITests" */;
+			buildPhases = (
+				682624941FE2444500436504 /* Sources */,
+				682624951FE2444500436504 /* Frameworks */,
+				682624961FE2444500436504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6826249A1FE2444500436504 /* PBXTargetDependency */,
+			);
+			name = ARKit3dEarthUITests;
+			productName = ARKit3dEarthUITests;
+			productReference = 682624981FE2444500436504 /* ARKit3dEarthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6826246F1FE2444500436504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = NAFS;
+				TargetAttributes = {
+					682624761FE2444500436504 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6826248C1FE2444500436504 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 682624761FE2444500436504;
+					};
+					682624971FE2444500436504 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 682624761FE2444500436504;
+					};
+				};
+			};
+			buildConfigurationList = 682624721FE2444500436504 /* Build configuration list for PBXProject "ARKit3dEarth" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6826246E1FE2444500436504;
+			productRefGroup = 682624781FE2444500436504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				682624761FE2444500436504 /* ARKit3dEarth */,
+				6826248C1FE2444500436504 /* ARKit3dEarthTests */,
+				682624971FE2444500436504 /* ARKit3dEarthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		682624751FE2444500436504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6826247D1FE2444500436504 /* art.scnassets in Resources */,
+				682624871FE2444500436504 /* LaunchScreen.storyboard in Resources */,
+				682624841FE2444500436504 /* Assets.xcassets in Resources */,
+				682624821FE2444500436504 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6826248B1FE2444500436504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682624961FE2444500436504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		682624731FE2444500436504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6826247F1FE2444500436504 /* ViewController.swift in Sources */,
+				6826247B1FE2444500436504 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682624891FE2444500436504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682624921FE2444500436504 /* ARKit3dEarthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682624941FE2444500436504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6826249D1FE2444500436504 /* ARKit3dEarthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6826248F1FE2444500436504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 682624761FE2444500436504 /* ARKit3dEarth */;
+			targetProxy = 6826248E1FE2444500436504 /* PBXContainerItemProxy */;
+		};
+		6826249A1FE2444500436504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 682624761FE2444500436504 /* ARKit3dEarth */;
+			targetProxy = 682624991FE2444500436504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		682624801FE2444500436504 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				682624811FE2444500436504 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		682624851FE2444500436504 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				682624861FE2444500436504 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6826249F1FE2444500436504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		682624A01FE2444500436504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		682624A21FE2444500436504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ETFMZLGGZT;
+				INFOPLIST_FILE = ARKit3dEarth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NFS.ARKit3dEarth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		682624A31FE2444500436504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ETFMZLGGZT;
+				INFOPLIST_FILE = ARKit3dEarth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NFS.ARKit3dEarth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		682624A51FE2444500436504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ETFMZLGGZT;
+				INFOPLIST_FILE = ARKit3dEarthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NFS.ARKit3dEarthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit3dEarth.app/ARKit3dEarth";
+			};
+			name = Debug;
+		};
+		682624A61FE2444500436504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ETFMZLGGZT;
+				INFOPLIST_FILE = ARKit3dEarthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NFS.ARKit3dEarthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit3dEarth.app/ARKit3dEarth";
+			};
+			name = Release;
+		};
+		682624A81FE2444500436504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ETFMZLGGZT;
+				INFOPLIST_FILE = ARKit3dEarthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NFS.ARKit3dEarthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARKit3dEarth;
+			};
+			name = Debug;
+		};
+		682624A91FE2444500436504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ETFMZLGGZT;
+				INFOPLIST_FILE = ARKit3dEarthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NFS.ARKit3dEarthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARKit3dEarth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		682624721FE2444500436504 /* Build configuration list for PBXProject "ARKit3dEarth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6826249F1FE2444500436504 /* Debug */,
+				682624A01FE2444500436504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		682624A11FE2444500436504 /* Build configuration list for PBXNativeTarget "ARKit3dEarth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682624A21FE2444500436504 /* Debug */,
+				682624A31FE2444500436504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		682624A41FE2444500436504 /* Build configuration list for PBXNativeTarget "ARKit3dEarthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682624A51FE2444500436504 /* Debug */,
+				682624A61FE2444500436504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		682624A71FE2444500436504 /* Build configuration list for PBXNativeTarget "ARKit3dEarthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682624A81FE2444500436504 /* Debug */,
+				682624A91FE2444500436504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6826246F1FE2444500436504 /* Project object */;
+}
